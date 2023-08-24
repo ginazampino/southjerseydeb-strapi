@@ -1,0 +1,51 @@
+{
+  "kind": "collectionType",
+  "collectionName": "listings",
+  "info": {
+    "singularName": "listing",
+    "pluralName": "listings",
+    "displayName": "Listing",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "addressLine1": {
+      "type": "string"
+    },
+    "addressLine2": {
+      "type": "string"
+    },
+    "listingPrice": {
+      "type": "biginteger"
+    },
+    "bedrooms": {
+      "type": "decimal"
+    },
+    "bathrooms": {
+      "type": "decimal"
+    },
+    "sqft": {
+      "type": "biginteger"
+    },
+    "sold": {
+      "type": "boolean"
+    },
+    "externalLink": {
+      "type": "string"
+    }
+  }
+}

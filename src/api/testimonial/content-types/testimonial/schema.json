@@ -4,7 +4,8 @@
   "info": {
     "singularName": "testimonial",
     "pluralName": "testimonials",
-    "displayName": "Testimonial"
+    "displayName": "Testimonial",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -21,7 +22,9 @@
       "type": "enumeration",
       "enum": [
         "Client",
-        "Colleague"
+        "Clients",
+        "Colleague",
+        "Colleagues"
       ]
     }
   }
